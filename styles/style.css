@@ -8,3 +8,35 @@ body{
     font-family: "Merriweather", serif;
     font-family: "Inter", sans-serif;
 }
+
+/* Banner section css */
+
+.banner-container{
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(/resources/Banner\ Image.png);    
+    width: 1320px;
+    height: 600px;
+    border-radius: 16px;
+    margin: 0 auto;
+    margin-top: 50px;
+    
+}
+
+.banner-container h2{
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-weight: 400;
+    padding: 177px 0 16px 0;
+}
+
+.banner-container h1{
+    width: 550px;
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px; /* 131.944% */
+    margin: 0 auto;
+}
