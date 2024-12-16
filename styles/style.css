@@ -158,3 +158,75 @@ body{
 .comming-soon-right img{
     margin-top: 43px;
 }
+
+/* Holidays sale section CSS */
+
+.holidays-container{
+    margin: 0 140px;
+    margin-top: 140px;
+}
+
+.holidays-contents h4{
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.holidays-contents h1{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 28px;
+}
+
+.holidays-contents h1 span{
+    color: #F00;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.holidays-contents-des{
+    width: 1060px;
+    margin: 0 auto;
+    margin-bottom: 64px;
+}
+
+.holidays-contents-des p{
+    width: 1068px;
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px; /* 160% */
+}
+
+.holidays-gift-box{
+    position: absolute;
+    left: 280px;
+}
+
+.holidays-discount{
+    position: absolute;
+    right: 400px;
+    top: 2375px;
+}
+
+.holidays-shopping{
+    margin-left: 1211px;
+}
+
+.holidays-bottom-bg{
+    width: 1640px;
+    height: 229px;
+    border-radius: 16px 0px 16px 16px;
+    background: #F00;
+    position: absolute;
+    top: 2730px;
+}
