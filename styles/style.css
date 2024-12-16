@@ -90,3 +90,71 @@ body{
     border: none;
     margin-top: 64px;
 }
+
+/* comming soon section css */
+
+.comming-soon-contanier{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 140px;
+    align-items: center;
+    margin-top: 120px;
+}
+
+.comming-soon-left h3{
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.comming-soon-left h2{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: 16px;
+    margin-bottom: 22px;
+}
+
+.comming-soon-left p{
+    width: 393px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px; /* 160% */
+}
+
+.comming-soon-middle{
+    width: 463px;
+    height: 463px;
+    border-radius: 463px;
+    border: 15px solid #F00;
+}
+
+.comming-soon-middle img{
+    margin-top: 50px ;
+    margin-left: 50px ;
+}
+
+
+.comming-soon-right h2{
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.comming-soon-right p{
+    width: 276px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px; /* 160% */
+}
+
+.comming-soon-right img{
+    margin-top: 43px;
+}
