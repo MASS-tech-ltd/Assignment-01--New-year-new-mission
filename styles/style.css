@@ -40,3 +40,53 @@ body{
     line-height: 95px; /* 131.944% */
     margin: 0 auto;
 }
+
+/* 65% Off section css */
+
+.off-container{
+    width: 1320px;
+    height: 482px;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    margin: 0 auto;
+    margin-top: 120px;
+}
+.off-container h2{
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.off-container span{
+    color: #F00;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px; /* 175% */
+    text-transform: capitalize;
+}
+
+.btn-primery{
+    margin: 0 auto;
+    width: 167px;
+}
+
+.btn-primery button{
+    display: inline-flex;
+    padding: 16px 32px;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: #F00;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    margin-top: 64px;
+}
