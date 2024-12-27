@@ -76,6 +76,55 @@ body{
     margin-bottom: 48px;
 }
 
+/* Midnight section CSS */
+
+.midnight-container{
+    background-image:  linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(/resources/Vectorrr.png);
+    border-radius: 16px;
+    width: 1320px;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 120px;
+
+}
+
+.midnight-container h1{
+    width: 642px;
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px; /* 137.5% */
+    letter-spacing: 7.04px;
+    margin-left: 126px;
+    padding-top: 120px;
+}
+
+.midnight-container p{
+    width: 697px;
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+    margin-left: 126px;
+    margin-top: 16px;
+    margin-bottom: 40px;
+}
+
+.midnight-banner-btn button{
+    display: inline-flex;
+    padding: 16px 32px;
+    border-radius: 8px;
+    background: #F00;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    margin-left: 126px;
+}
+
 /* Place and date section CSS */
 
 .place-date-container{
@@ -250,7 +299,7 @@ body{
 .holidays-discount{
     position: absolute;
     right: 400px;
-    top: 2375px;
+    top: 4025px;
 }
 
 .holidays-shopping{
@@ -263,5 +312,5 @@ body{
     border-radius: 16px 0px 16px 16px;
     background: #F00;
     position: absolute;
-    top: 2730px;
+    top: 4380px;
 }
