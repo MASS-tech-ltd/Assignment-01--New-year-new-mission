@@ -41,16 +41,51 @@ body{
     margin: 0 auto;
 }
 
-/* 65% Off section css */
+/* 65% off section CSS */
 
 .off-container{
+    width: 802.9px;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+
+.off-container h1{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+}
+
+.off-container h6{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 48px;
+}
+
+.off-container h2{
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 16px;
+    margin-bottom: 48px;
+}
+
+/* Place and date section CSS */
+
+.place-date-container{
     width: 1320px;
     height: 482px;
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
     margin: 0 auto;
     margin-top: 120px;
 }
-.off-container h2{
+.place-date-container h2{
     color: #070211;
     font-family: Inter;
     font-size: 32px;
@@ -61,7 +96,7 @@ body{
     padding-top: 100px;
 }
 
-.off-container span{
+.place-date-container span{
     color: #F00;
     font-family: Inter;
     font-size: 32px;
